@@ -2,7 +2,7 @@ import sqlite3 as sql
 from tabulate import tabulate
 
 # Variables
-connection = sql.connect('original_db.db')
+connection = sql.connect('no_town.db')
 cur = connection.cursor()
 
 def select_print(statement):
